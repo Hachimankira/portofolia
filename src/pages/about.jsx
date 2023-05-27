@@ -8,6 +8,8 @@ import Socials from "../components/about/socials";
 import INFO from "../data/user";
 
 import "./styles/about.css";
+import Education from "../data/Education";
+import Progress from "../data/Progress";
 
 const About = () => {
 	useEffect(() => {
@@ -18,7 +20,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<div className="page-content">
-				<NavBar active="about" />  
+				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
@@ -49,12 +51,18 @@ const About = () => {
 									</div>
 								</div>
 
-								<div className="about-socials">
-									<Socials />
-								</div>
+								
+
 							</div>
+							
 						</div>
 					</div>
+
+					<div className="homepage-projects">
+									<Education />
+									<Progress />
+								</div>
+
 					<div className="page-footer">
 						<Footer />
 					</div>

@@ -157,13 +157,11 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
+							<h2>My projects</h2>
 							<AllProjects />
 						</div>
 
-						<div className="homepage-projects">
-							<Education />
-							<Progress />
-						</div>
+						
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
