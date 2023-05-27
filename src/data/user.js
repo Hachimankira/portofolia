@@ -90,19 +90,28 @@ const INFO = {
 	education:[
 		{
 			year: "2000-13",
-			name: "Peak Point Academy"
+			name: "Peak Point Academy",
+			degree: "Secondary level"
 		},
 		{
 			year: "2013-15",
-			name: "Herald Point Academy"
+			name: "Herald Point Academy",
+			degree: "Higher level"
 		},
 		{
 			year: "2015-19",
-			name: "EDX Harvard"
+			name: "EDX Harvard",
+			degree: "University"
 		},
 		{
-			year: "2015-19",
-			name: "Youtube"
+			year: "2019-21",
+			name: "EDX Harvard",
+			degree: "Masters"
+		},
+		{
+			year: "2021-23",
+			name: "Youtube",
+			degree: "Graduation"
 		}
 	],
 
@@ -124,13 +133,13 @@ const INFO = {
 		}
 	],
 
-	software: {
-		skill1: "Adobe Photoshop",
-		skill2: "Adobe Illustrator",
-		skill3: "Adobe Bridge",
-		skill4: "Adobe Premier Pro",
+	knowledge: {
+		skill1: "Adobe Photoshop, Illustrator, Lightroom ",
+		skill2: "Premier Pro, After Effects ",
+		skill3: "React, Node.js ",
+		skill4: "PHP, Postman ",
 		skill5: "Adobe After Effects",
-		skill6: "Adobe Lightroom"
+		skill6: "Flutter, Figma ",
 	}
 
 };

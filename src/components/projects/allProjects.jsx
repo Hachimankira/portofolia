@@ -5,6 +5,7 @@ import Project from "./project";
 import INFO from "../../data/user";
 
 import "./styles/allProjects.css";
+import ProjectCard from "./ProjectCard";
 
 const AllProjects = () => {
 	return (
@@ -18,8 +19,12 @@ const AllProjects = () => {
 						linkText={project.linkText}
 						link={project.link}
 					/>
+
+
 				</div>
 			))}
+
+			<ProjectCard />
 		</div>
 	);
 };

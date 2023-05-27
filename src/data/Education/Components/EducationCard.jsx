@@ -1,16 +1,22 @@
+import React from 'react';
+
 const EducationCard = ({ data }) => {
-    //logic
+  // logic
 
-    //ui
-    return (
-        <div style={{ margin: 10, display: 'flex', flexDirection: 'row'}}>
-            <div className='p-8 flex-fill' style={{textAlign: 'left'}}><h5>{data.year}</h5></div>
-            <div className='p-8 flex-fill' style={{textAlign: 'right'}}><h5>{data.name}</h5></div>
+  // UI
+  return (
+    <ul className="list-group m-2">
+      <li className="list-group-item d-flex justify-content-between">
+        <div className="flex-fill rounded p-4" style={{ textAlign: 'left' }}>
+          <p className="m-0" >{data.year}</p>
         </div>
+        <div className="flex-fill p-4" style={{ textAlign: 'right' }}>
+          <p className="m-0" style={{ fontWeight: 'bold' }}>{data.name}</p>
+          <p className="m-0">{data.degree}</p>
+        </div>
+      </li>
+    </ul>
+  );
+};
 
-    )
-
-
-
-}
-export default EducationCard    
+export default EducationCard;
