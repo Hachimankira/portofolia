@@ -1,19 +1,27 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ProjectCard = () => {
-    return (
-        <div className="card" style={{ width: '18rem' }}>
-            <img src="project1.jpg" className="card-img-top" alt="..." />
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <div className='pr-4'>
-                    <a href="#" className="btn btn-primary">Live</a>
-                    <a href="#" className="btn btn-primary">Code</a>
-                </div>
-            </div>
-        </div>
-    )
-}
+	return (
+			<Link to="/projects/single-project" aria-label="Single Project">
+				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
+					<div>
+						<img
+							src="/project1.jpg"
+							className="rounded-t-xl border-none"
+							alt="Single Project"
+						/>
+					</div>
+					<div className="text-center px-4 py-6">
+						<p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
+							Karuna hospital
+						</p>
+						<span className="text-lg text-ternary-dark dark:text-ternary-light">
+							React, Node
+						</span>
+					</div>
+				</div>
+			</Link>
+	);
+};
 
-export default ProjectCard
+export default ProjectCard;

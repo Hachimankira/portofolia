@@ -43,51 +43,71 @@ const INFO = {
 		{
 			title: "Pasal.com.np",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"React, Node",
+			type: "Web Application, Graphics design",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			image: "./project1.jpg"
 		},
 
 		{
 			title: "Photopasal.com.np",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"React, Node",
+			type: "Web Application, Graphics design",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			image: "./project2.jpg"
 		},
 
 		{
 			title: "Archerygarage.com",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"React, Node",
+			type: "Mobile Application",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			image: "./project3.jpg"
 		},
 
 		{
 			title: "Karunahospital.com.np",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"React, Node",
+			type: "Web Application, Graphics design",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			image: "./project1.jpg"
 		},
 
 		{
 			title: "Sayas Bakery",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"React, Node",
+			type: "Graphics design",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			image: "./project2.jpg"
 		},
 
 	],
 
-	education:[
+	education: [
 		{
 			year: "2000-13",
 			name: "Peak Point Academy",
@@ -115,7 +135,7 @@ const INFO = {
 		}
 	],
 
-	experience:[
+	experience: [
 		{
 			year: "2015-17",
 			name: "Karuna Hospital",
