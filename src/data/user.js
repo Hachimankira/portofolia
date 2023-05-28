@@ -49,8 +49,8 @@ const INFO = {
 			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
-			image: "./project1.jpg"
+			link: "https://stockmanagement.pasal.com.np/",
+			image: "./pasal.png"
 		},
 
 		{
@@ -63,7 +63,7 @@ const INFO = {
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
-			image: "./project2.jpg"
+			image: "./photo.jpg"
 		},
 
 		{
@@ -76,7 +76,7 @@ const INFO = {
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
-			image: "./project3.jpg"
+			image: "./archery.jpg"
 		},
 
 		{
@@ -102,7 +102,7 @@ const INFO = {
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
-			image: "./project2.jpg"
+			image: "./sayas.jpg"
 		},
 
 	],
