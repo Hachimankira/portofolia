@@ -34,6 +34,31 @@ const INFO = {
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
+
+	article: [
+		{
+			category: "IT",
+			date: "2023-05-28",
+			title: "Title 1",
+			description: "Article 1",
+			image: ""
+		  },
+		{
+			category: "IT",
+			date: "2023-05-28",
+			title: "Title 1",
+			description: "Article 1",
+			image: ""
+		},
+		{
+			category: "IT",
+			date: "2023-05-28",
+			title: "Title 1",
+			description: "Article 1",
+			image: ""
+		}
+	],
+
 	projectsHeading: {
 		title: "This are all my projects",
 		description: "I've worked on a variety of projects over the years and I'm proud of the progress I've made."
@@ -48,7 +73,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "https://stockmanagement.pasal.com.np/",
 			link: "https://stockmanagement.pasal.com.np/",
 			image: "./pasal.png"
 		},

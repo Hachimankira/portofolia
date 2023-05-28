@@ -9,6 +9,7 @@ import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/articles.css";
+import ArticleCard from "../data/ArticleCard";
 
 const Articles = () => {
 	useEffect(() => {
@@ -27,8 +28,8 @@ const Articles = () => {
 						</div>
 					</div>
 
-					<div className="articles-main-container">
-						<div className="title articles-title">
+					<div className="articles-main-container flex">
+					<div className="title articles-title">
 							{INFO.articles.title}
 						</div>
 
@@ -36,25 +37,22 @@ const Articles = () => {
 							{INFO.articles.description}
 						</div>
 
-						<div className="articles-container">
-							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
-									<div
-										className="articles-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+						<div>
+						{INFO.article.map((article, index) => (
+							<div key={index}>
+								<ArticleCard
+									title={article.title}
+									description={article.description}
+									image={article.image}
+									category={article.category}
+									date={article.date}
+								/>
 							</div>
-						</div>
+						))}
 					</div>
+					</div>
+					{/* //new code from here */}
+					
 					<div className="page-footer">
 						<Footer />
 					</div>
