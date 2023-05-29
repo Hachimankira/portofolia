@@ -6,6 +6,11 @@ const INFO = {
 		name: "Sabin Shrestha",
 		email: "Sabin9860819025@gmail.com",
 		logo: "../logo.png",
+		dob:"1999-01-01",
+		address: "Kathmandu,Nepal",
+		phone: "9851185981",
+		intrest: "Football, Reading",
+		freelance: "Available"
 	},
 
 	socials: {

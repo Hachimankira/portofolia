@@ -3,7 +3,8 @@ import INFO from '../../data/user'
 
 const Hero = () => {
   return (
-    <div className="homepage-first-area">
+    <div>
+      <div className="homepage-first-area">
       <div className="homepage-first-area-left-side" style={{ backgroundColor: '#f2f3f6', borderTopLeftRadius: '30 px', borderBottomLeftRadius: '30 px' }}>
         <div className='p-4'>
           <h4>Hello, My name is</h4>
@@ -36,6 +37,8 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </div>
+
   )
 }
 
