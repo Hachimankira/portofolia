@@ -4,7 +4,7 @@ import INFO from '../../data/user'
 const Hero = () => {
   return (
     <div className="homepage-first-area">
-      <div className="homepage-first-area-left-side" style={{ backgroundColor: '#f2f3f6', borderTopLeftRadius: '30px', borderBottomLeftRadius: '30px' }}>
+      <div className="homepage-first-area-left-side" style={{ backgroundColor: '#f2f3f6', borderTopLeftRadius: '30 px', borderBottomLeftRadius: '30 px' }}>
         <div className='p-4'>
           <h4>Hello, My name is</h4>
           <div className="title homepage-title">
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="homepage-first-area-right-side">
         <div className="">
           <div className="">
-            <img style={{ borderTopRightRadius: '30px', borderBottomRightRadius: '30px' }}
+            <img style={{ borderTopRightRadius: '30 px', borderBottomRightRadius: '30 px' }}
               src="code.png"
               alt="about"
               className="homepage-image"
