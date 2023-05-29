@@ -14,9 +14,12 @@ const Hero = () => {
             <h4>{INFO.homepage.title}</h4>
           </div>
           <div className="flex justify-left mt-5">
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Download CV
-            </button>
+            <a href="/CV.pdf" download="CV.pdf">
+              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                Download CV
+              </button>
+            </a>
+
           </div>
         </div>
       </div>
