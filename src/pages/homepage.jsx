@@ -22,6 +22,7 @@ import myArticles from "../data/articles";
 import "./styles/homepage.css";
 import Progress from "../data/Progress";
 import Education from "../data/Education";
+import Hero from "../components/homepage/Hero";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -68,6 +69,7 @@ const Homepage = () => {
 	};
 
 	return (
+
 		<React.Fragment>
 			<div className="page-content">
 				<NavBar active="home" />
@@ -79,29 +81,7 @@ const Homepage = () => {
 					</div>
 
 					<div className="homepage-container">
-						<div className="homepage-first-area">
-							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
-									{INFO.homepage.title}
-								</div>
-
-								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
-								</div>
-							</div>
-
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="homepage.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
-									</div>
-								</div>
-							</div>
-						</div>
+						<Hero />
 
 						<div className="homepage-socials">
 							<a
@@ -161,7 +141,7 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						
+
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">

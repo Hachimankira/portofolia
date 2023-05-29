@@ -2,25 +2,25 @@ import Education from "./Education";
 
 const INFO = {
 	main: {
-		title: "Kiran Shrestha",
-		name: "Kiran Shrestha",
-		email: "kiran9860819025@gmail.com",
+		title: "Sabin Shrestha",
+		name: "Sabin Shrestha",
+		email: "Sabin9860819025@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/Hachimankira",
-		linkedin: "https://www.linkedin.com/in/kiran-shrestha-823b2520a/",
-		instagram: "https://www.instagram.com/kiran_shrestha6000/",
+		linkedin: "https://www.linkedin.com/in/Sabin-shrestha-823b2520a/",
+		instagram: "https://www.instagram.com/Sabin_shrestha6000/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://www.facebook.com/profile.php?id=100027827393620",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and graphic Designer.",
-		description:
-			"Welcome to my portfolio website! Explore my BSc.CSIT student journey and professional experience as a project manager and QA at Software Pasal. Discover my skills, projects, and achievements. Connect with me for collaboration opportunities.",
+		title: "Full-stack Web and Mobile App developer, and Graphic Designer.",
+		description:"I am a software and mobile app developer with a passion for graphics designing and photography. I have over 5 years of experience in the industry, and I am proficient in a variety of programming languages and graphics design software. I am a creative and innovative thinker, and I am always looking for new ways to use technology to solve problems. I am also a team player, and I am always willing to help others.", 
+		description1: "In my portfolio, I showcase my work in software development, graphics design, and photography. I hope you enjoy my work!"
 	},
 
 	about: {
