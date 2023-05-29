@@ -24,7 +24,6 @@ const Education = () => {
                             INFO.education.map((data => {
                                 return (
                                     <EducationCard data={data} name={data.name} />
-
                                 )
                             }))
                         }

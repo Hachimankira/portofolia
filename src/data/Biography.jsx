@@ -114,7 +114,6 @@ const Biography = () => {
 
                 </div>
             </div>
-
         </section>
     )
 }

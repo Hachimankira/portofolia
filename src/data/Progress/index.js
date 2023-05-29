@@ -5,83 +5,46 @@ import ProgressBar from 'react-customizable-progressbar';
 const App = () => {
     return (
         <div>
-            <div className="text-center container">
-                <h1>Progress Bar</h1>
+            <div className="flex justify-between mb-1">
+                <span className="text-base font-medium text-blue-700 dark:text-black">React</span>
+                <span className="text-sm font-medium text-blue-700 dark:text-black">85%</span>
             </div>
-            <div className='row justify-content-center' style={{ display: 'flex', justifyContent: 'center' }}>
-                <div className='col-lg-4 col-md-6 mb-4'>
-                    <ProgressBar now={60} label="React" variant="info"
-                        progress={60}
-                        radius={70}
-                        strokeColor="#89e1f7"
-                        initialAnimation={true}
-                        initialAnimationDelay={20}
-
-                    >
-                        <div className="progressbar-content">
-                            <span className="progressbar-text">React</span>
-                        </div>
-                    </ProgressBar >
-                </div>
-
-                <div className='col-lg-4 col-md-6 mb-4'>
-                    <ProgressBar
-                        progress={60}
-                        radius={70}
-                        strokeColor="#75AD63"
-                        initialAnimation={true}
-                        initialAnimationDelay={20}
-                    >
-                        <div className="progressbar-content">
-                            <span className="progressbar-text">Node</span>
-                        </div>
-                    </ProgressBar>
-                </div>
-
-                <div className='col-lg-4 col-md-6 mb-4'>
-                    <ProgressBar
-                        progress={80}
-                        radius={70}
-                        strokeColor="#4f5b93"
-                        initialAnimation={true}
-                        initialAnimationDelay={20}
-                    >
-                        <div className="progressbar-content">
-                            <span className="progressbar-text">PHP</span>
-                        </div>
-                    </ProgressBar>
-                </div>
-
-                <div className='col-lg-4 col-md-6 mb-4'>
-                    <ProgressBar
-                        progress={60}
-                        radius={70}
-                        strokeColor="#2DAAFF"
-                        initialAnimation={true}
-                        initialAnimationDelay={20}
-                    >
-                        <div className="progressbar-content">
-                            <span className="progressbar-text">PhotoShop</span>
-                        </div>
-                    </ProgressBar>
-                </div>
-
-                <div className='col-lg-4 col-md-6 mb-4'>
-                    <ProgressBar
-                        progress={60}
-                        radius={70}
-                        strokeColor="#FF9B00"
-                        initialAnimation={true}
-                        initialAnimationDelay={20}
-                    >
-                        <div className="progressbar-content">
-                            <span className="progressbar-text">Illustrator</span>
-                        </div>
-                    </ProgressBar>
-                </div>
-                
-                {/* Add more ProgressBar instances as needed */}
+            <div className="w-full bg-gray-200 rounded-full h-4 mb-4 dark:bg-gray-700 mb-4" >
+                <div className="bg-blue-600 h-4 rounded-full" style={{ width: '85%', backgroundColor: '#89e1f7' }}></div>
             </div>
+
+            <div className="flex justify-between mb-1">
+                <span className="text-base font-medium text-blue-700 dark:text-black">Node.js</span>
+                <span className="text-sm font-medium text-blue-700 dark:text-black">90%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-4 mb-4 dark:bg-gray-700 mb-4">
+                <div className="bg-blue-600 h-4 rounded-full" style={{ width: '90%', backgroundColor: '#75AD63' }}></div>
+            </div>
+
+            <div className="flex justify-between mb-1">
+                <span className="text-base font-medium text-blue-700 dark:text-black">PHP</span>
+                <span className="text-sm font-medium text-blue-700 dark:text-black">75%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-4 mb-4 dark:bg-gray-700 mb-4">
+                <div className="bg-blue-600 h-4 rounded-full" style={{ width: '75%', backgroundColor: '#4f5b93' }}></div>
+            </div>
+
+            <div className="flex justify-between mb-1">
+                <span className="text-base font-medium text-blue-700 dark:text-black">Python</span>
+                <span className="text-sm font-medium text-blue-700 dark:text-black">70%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-4 mb-4 dark:bg-gray-700 mb-4">
+                <div className="bg-blue-600 h-4 rounded-full" style={{ width: '70%', backgroundColor: '#3771a2' }}></div>
+            </div>
+
+            <div className="flex justify-between mb-1">
+                <span className="text-base font-medium text-blue-700 dark:text-black">Ruby</span>
+                <span className="text-sm font-medium text-blue-700 dark:text-black">60%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-4 mb-4 dark:bg-gray-700 mb-4">
+                <div className="bg-blue-600 h-4 rounded-full" style={{ width: '60%', backgroundColor: '#b50e00' }}></div>
+            </div>
+
         </div>
     );
 };
