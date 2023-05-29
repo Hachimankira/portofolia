@@ -12,22 +12,21 @@ const Project = (props) => {
 		<React.Fragment>
 			<div className="project">
 				<Link to={link}>
-					<div className="project-container " >
+					<div className="project-container hover:shadow-xl" >
+							<img className="card-img-top" src={image} alt="..." />
+							<div className="card-body " style={{ paddingTop: '-10px' }}>
+								<div className="project-title">{title}</div>
+								<div className="project-logo" style={{ display: 'flex', flexDirection: 'row', gap: '15px' }}>
+									<img src={logo} alt="logo" />
+									<img src={logo1} alt="logo" />
+									<img src={logo2} alt="logo" />
+								</div>
 
-						<img className="card-img-top" src={image} alt="..." />
-						<div className="card-body " style={{ paddingTop: '-10px' }}>
-							<div className="project-title">{title}</div>
-							<div className="project-logo" style={{ display: 'flex', flexDirection: 'row', gap: '15px' }}>
-								<img src={logo} alt="logo" />
-								<img src={logo1} alt="logo" />
-								<img src={logo2} alt="logo" />
-							</div>
-
-							<div className="project-description">{type}</div>
-							<div className="project-link">
-								<a href={link} className="btn btn-primary btn-sm ">Live</a>
-								<a href={linkText} className="btn btn-outline-primary btn-sm ">Code</a>
-							</div>
+								<div className="project-description">{type}</div>
+								<div className="project-link">
+									<a href={link} className="btn btn-primary btn-sm ">Live</a>
+									<a href={linkText} className="btn btn-outline-primary btn-sm ">Code</a>
+								</div>
 						</div>
 					</div>
 				</Link>

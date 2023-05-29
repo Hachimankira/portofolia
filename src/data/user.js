@@ -10,11 +10,11 @@ const INFO = {
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/Hachimankira",
+		github: "https://github.com/pasalnp",
 		linkedin: "https://www.linkedin.com/in/Sabin-shrestha-823b2520a/",
-		instagram: "https://www.instagram.com/Sabin_shrestha6000/",
+		instagram: "https://www.instagram.com/sa_bin_sth/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://www.facebook.com/profile.php?id=100027827393620",
+		facebook: "https://www.facebook.com/sabinsth44",
 	},
 
 	homepage: {
