@@ -16,6 +16,7 @@ const INFO = {
 		freelance: "Available"
 	},
 
+
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/pasalnp",
@@ -208,7 +209,27 @@ const INFO = {
 		skill4: "PHP, Postman ",
 		skill5: "Adobe After Effects",
 		skill6: "Flutter, Figma ",
-	}
+	},
+	contact_details:
+		[
+			{
+				name: 'Phone',
+				contact1: "9851185981",
+				contact2: "9851185981"
+			},
+			{
+				name: 'Email',
+				contact1: "Sabin.sth444@gmail.com",
+				contact2: "Sabin.sth444@gmail.com"
+			},
+			{
+				name: 'Phone',
+				contact1: "Kathmandu,Nepal",
+				contact2: "Kathmandu,Nepal"
+			},
+		]
+
+
 
 };
 

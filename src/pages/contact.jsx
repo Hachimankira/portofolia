@@ -4,68 +4,72 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
-import INFO from "../data/user";
-
 import "./styles/contact.css";
+import { Button, Card, CardActions, CardContent, Grid, Typography } from '@mui/material';
+const getContactData = () => {
+	return [
+		{
+			name: 'Phone',
+			contact1: "9851185981",
+			contact2: "9851185981"
+		},
+		{
+			name: 'Email',
+			contact1: "Sabin.sth444@gmail.com",
+			contact2: "Sabin.sth444@gmail.com"
+		},
+		{
+			name: 'Address',
+			contact1: "Kathmandu, Nepal",
+			contact2: "Kathmandu, Nepal"
+		},
+	];
+}
 
 const Contact = () => {
-	useEffect(() => {
-		document.title = `Contact | ${INFO.main.title}`;
-		window.scrollTo(0, 0);
-	}, []);
+	
 
+	const contactValue = getContactData();
 	return (
 		<React.Fragment>
-			<div className="page-content">
+			<div className="page-content mt-20">
 				<NavBar active="contact" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
+						<Typography variant="h2" component="div" align='center' className='pt-8'>
+							Contact
+						</Typography>
 						<div className="contact-logo">
 							<Logo width={46} />
 						</div>
 					</div>
 
-					<div className="contact-container">
-						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
-						</div>
+					<div style={{ display: 'flex', flexDirection: 'row' }} >
+						{contactValue.map((val, key) => {
+							return (
+								<>
+									<Grid container spacing={2}>
+										<Grid item xs={3}>
+											<Card sx={{ minWidth: 275 }} className='mt-2 hover:shadow-xl border-l-2 border-gray-200 border-opacity-75 bg-gray-100 bg-opacity-75 px-10 pt-8 pb-8'>
+												<CardContent>
+													<div style={{ display: 'flex', justifyContent: 'center' }}> {val.name}</div>
+													<Typography variant="h5" component="div" align='center' className='pt-8'>
+														{val.contact1}
+													</Typography>
+													<Typography variant="h5" component="div" align='center' className='pt-8'>
+														{val.contact2}
+													</Typography>
+												</CardContent>
+											</Card>
+										</Grid>
 
-						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
-						</div>
-					</div>
+									</Grid>
 
-					<div className="contact-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
-					</div>
+								</>
+							)
+						})}
+
+					</div >
 
 					<div className="page-footer">
 						<Footer />
