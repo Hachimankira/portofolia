@@ -15,6 +15,7 @@ import Progress from "../data/Progress";
 import Education from "../data/Education";
 import Hero from "../components/homepage/Hero";
 import Biography from "../data/Biography";
+import WhatIDo from "../data/WhatIDo";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -76,6 +77,8 @@ const Homepage = () => {
 						<Hero />
 
 						<Biography />
+
+						<WhatIDo />
 
 						<div className="homepage-projects">
 							<h2>My projects</h2>

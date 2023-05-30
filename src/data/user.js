@@ -1,4 +1,7 @@
+import { AppShortcut, ArtTrack, Code } from "@mui/icons-material";
 import Education from "./Education";
+import WebIcon from '@mui/icons-material/Web';
+
 
 const INFO = {
 	main: {
@@ -6,7 +9,7 @@ const INFO = {
 		name: "Sabin Shrestha",
 		email: "Sabin9860819025@gmail.com",
 		logo: "../logo.png",
-		dob:"1999-01-01",
+		dob: "1999-01-01",
 		address: "Kathmandu,Nepal",
 		phone: "9851185981",
 		intrest: "Football, Reading",
@@ -24,7 +27,7 @@ const INFO = {
 
 	homepage: {
 		title: "Full-stack Web and Mobile App developer, and Graphic Designer.",
-		description:"I am a software and mobile app developer with a passion for graphics designing and photography. I have over 5 years of experience in the industry, and I am proficient in a variety of programming languages and graphics design software. I am a creative and innovative thinker, and I am always looking for new ways to use technology to solve problems. I am also a team player, and I am always willing to help others.", 
+		description: "I am a software and mobile app developer with a passion for graphics designing and photography. I have over 5 years of experience in the industry, and I am proficient in a variety of programming languages and graphics design software. I am a creative and innovative thinker, and I am always looking for new ways to use technology to solve problems. I am also a team player, and I am always willing to help others.",
 		description1: "In my portfolio, I showcase my work in software development, graphics design, and photography. I hope you enjoy my work!"
 	},
 
@@ -33,6 +36,21 @@ const INFO = {
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
+
+	whatIDo: [
+		{
+			icon: <WebIcon sx={{ fontSize: 80 }} />,
+			title: "Web Applications"
+		},
+		{
+			icon: <AppShortcut sx={{ fontSize: 80 }} />,
+			title: "Mobile Application"
+		},
+		{
+			icon: <ArtTrack sx={{ fontSize: 80 }} />,
+			title: "Graphics Design"
+		}
+	],
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -47,7 +65,7 @@ const INFO = {
 			title: "Title 1",
 			description: "Article 1",
 			image: ""
-		  },
+		},
 		{
 			category: "IT",
 			date: "2023-05-28",

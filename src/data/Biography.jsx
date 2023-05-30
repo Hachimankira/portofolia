@@ -3,10 +3,10 @@ import INFO from './user'
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
+    faTwitter,
+    faGithub,
+    faStackOverflow,
+    faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -88,7 +88,7 @@ const Biography = () => {
 
                 <div class="lg:flex-grow md:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-left">
                     <div className="container">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">Biography</h1>
+                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">Biography</h1>
                         <p class="mb-8 leading-relaxed">{INFO.homepage.description}</p>
                         <div className="row">
                             <div className="col-sm">
