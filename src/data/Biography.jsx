@@ -1,14 +1,8 @@
 import React from 'react'
 import INFO from './user'
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faTwitter,
-    faGithub,
-    faStackOverflow,
-    faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
 import Progress from "./Progress";
+import Socials from '../components/about/socials';
+import Popup from '../components/Popup';
 
 
 
@@ -32,58 +26,9 @@ const Biography = () => {
                         <p >Full Stack Developer</p>
                         <h4 className='font-bold'>{INFO.main.name}</h4>
                         {/* social icon */}
-                        <div className="homepage-socials">
-                            <a
-                                href={INFO.socials.twitter}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faTwitter}
-                                    className="homepage-social-icon"
-                                />
-                            </a>
-                            <a
-                                href={INFO.socials.github}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faGithub}
-                                    className="homepage-social-icon"
-                                />
-                            </a>
-                            <a
-                                href={INFO.socials.stackoverflow}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faStackOverflow}
-                                    className="homepage-social-icon"
-                                />
-                            </a>
-                            <a
-                                href={INFO.socials.instagram}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faInstagram}
-                                    className="homepage-social-icon"
-                                />
-                            </a>
-                            <a
-                                href={`mailto:${INFO.main.email}`}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FontAwesomeIcon
-                                    icon={faMailBulk}
-                                    className="homepage-social-icon"
-                                />
-                            </a>
-                        </div>
+                        <Socials />
+
+                        <Popup />
                     </div>
                 </div>
 
@@ -93,6 +38,7 @@ const Biography = () => {
                         <p class="mb-8 leading-relaxed">{INFO.homepage.description}</p>
                         <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">My Skill level</h1>
                        <Progress />
+
 
                        {/* <div className="row">
                             <div className="col-sm">

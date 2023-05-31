@@ -13,7 +13,7 @@ const Education = () => {
 
     return (
         <div >
-            <div className="d-flex gap-3 pb-5">
+            <div className="d-flex gap-3 pb-5 mt-5">
                 <div className="p-2 flex-fill border border-secondary-subtle rounded-lg border-opacity-50 border-3 rounded-3 p-3">
                     <div className=' border-bottom gap-4' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#f7f7f7' }}>
                         <FontAwesomeIcon icon={faGraduationCap} />

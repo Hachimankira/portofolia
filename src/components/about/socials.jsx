@@ -1,11 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
 	faTwitter,
 	faGithub,
 	faLinkedin,
 	faInstagram,
+	faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -15,77 +17,70 @@ import "./styles/socials.css";
 const Socials = () => {
 	return (
 		<div className="socials">
-			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faTwitter}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on Twitter</div>
-				</a>
-			</div>
+			<div className="homepage-socials">
+                            <a
+                                href={INFO.socials.twitter}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faTwitter}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
+                            <a
+                                href={INFO.socials.github}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faGithub}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
 
-			<div className="social">
-				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faGithub}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on GitHub</div>
-				</a>
-			</div>
+							<a
+                                href={INFO.socials.linkedin}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faLinkedin}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
 
-			<div className="social">
-				<a
-					href={INFO.socials.linkedin}
-					target="_blank"
-					rel="noreferrer"
-				>
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faLinkedin}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on LinkedIn</div>
-				</a>
-			</div>
-
-			<div className="social">
-				<a
-					href={INFO.socials.instagram}
-					target="_blank"
-					rel="noreferrer"
-				>
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faInstagram}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on Instagram</div>
-				</a>
-			</div>
-
-			<div className="email">
-				<div className="email-wrapper">
-					<a
-						href={`mailto:${INFO.main.email}`}
-						target="_blank"
-						rel="noreferrer"
-					>
-						<div className="social-icon">
-							<FontAwesomeIcon icon={faEnvelope} />
-						</div>
-
-						<div className="social-text">{INFO.main.email}</div>
-					</a>
-				</div>
-			</div>
+                            <a
+                                href={INFO.socials.stackoverflow}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faStackOverflow}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
+                            <a
+                                href={INFO.socials.instagram}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faInstagram}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
+                            <a
+                                href={`mailto:${INFO.main.email}`}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    icon={faMailBulk}
+                                    className="homepage-social-icon"
+                                />
+                            </a>
+                        </div>
 		</div>
 	);
 };

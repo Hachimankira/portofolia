@@ -5,7 +5,7 @@ import WebIcon from '@mui/icons-material/Web';
 
 const INFO = {
 	main: {
-		title: "Sabin Shrestha",
+		title: "Full stack developer",
 		name: "Sabin Shrestha",
 		email: "Sabin9860819025@gmail.com",
 		logo: "../logo.png",
@@ -172,16 +172,6 @@ const INFO = {
 			name: "EDX Harvard",
 			degree: "University"
 		},
-		{
-			year: "2019-21",
-			name: "EDX Harvard",
-			degree: "Masters"
-		},
-		{
-			year: "2021-23",
-			name: "Youtube",
-			degree: "Graduation"
-		}
 	],
 
 	experience: [

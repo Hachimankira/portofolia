@@ -7,7 +7,7 @@ import "./styles/works.css";
 
 const Works = () => {
 	return (
-		<div className="works">
+		<div className="works mt-5">
 			<Card
 				icon={faBriefcase}
 				title="Work"
