@@ -5,12 +5,12 @@ const EducationCard = ({ data }) => {
 
   // UI
   return (
-    <ul className="list-group m-2">
+    <ul className="list-group m-1">
       <li className="list-group-item d-flex justify-content-between">
-        <div className="flex-fill rounded p-4" style={{ textAlign: 'left' }}>
+        <div className="flex-fill rounded p-2" style={{ textAlign: 'left' }}>
           <p className="m-0" >{data.year}</p>
         </div>
-        <div className="flex-fill p-4" style={{ textAlign: 'right' }}>
+        <div className="flex-fill p-2" style={{ textAlign: 'right' }}>
           <p className="m-0" style={{ fontWeight: 'bold' }}>{data.name}</p>
           <p className="m-0">{data.degree}</p>
         </div>

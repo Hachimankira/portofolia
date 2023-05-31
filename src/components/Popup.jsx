@@ -106,7 +106,7 @@ export default function ScrollDialog() {
                             </Grid>
                             <Grid item xs={6}>
                                 <h2>Education</h2>
-                                <div className="p-2 flex-fill border border-secondary-subtle rounded-lg border-opacity-50 border-3 rounded-3 p-3">
+                                <div className="mt-5 p-2 flex-fill border border-secondary-subtle rounded-lg border-opacity-50 border-3 rounded-3 p-3">
                                     <div className=' border-bottom gap-4' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#f7f7f7' }}>
                                         <FontAwesomeIcon icon={faGraduationCap} />
                                         <h3>Education</h3>
