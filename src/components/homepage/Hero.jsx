@@ -3,7 +3,7 @@ import INFO from '../../data/user'
 
 const Hero = () => {
   return (
-    <div>
+    <div className='mb-5'>
       <div className="homepage-first-area">
       <div className="homepage-first-area-left-side" style={{ backgroundColor: '#f2f3f6', borderTopLeftRadius: '30 px', borderBottomLeftRadius: '30 px' }}>
         <div className='p-4'>
@@ -12,7 +12,8 @@ const Hero = () => {
             {INFO.main.name}
           </div>
           <div className="subtitle homepage-subtitle">
-            <h4>{INFO.homepage.title}</h4>
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">{INFO.homepage.title}</h1>
+            <h4></h4>
           </div>
           <div className="flex justify-left mt-5">
             <a href="/CV.pdf" download="CV.pdf">
@@ -28,7 +29,7 @@ const Hero = () => {
       <div className="homepage-first-area-right-side">
         <div className="">
           <div className="">
-            <img style={{ borderTopRightRadius: '30 px', borderBottomRightRadius: '30 px' }}
+            <img style={{ borderTopRightRadius: '30 px', borderBottomRightRadius: '30 px', width: '1200px', height: 'auto'}}
               src="code.png"
               alt="about"
               className="homepage-image"

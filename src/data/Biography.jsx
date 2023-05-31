@@ -8,6 +8,7 @@ import {
     faStackOverflow,
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import Progress from "./Progress";
 
 
 
@@ -88,9 +89,12 @@ const Biography = () => {
 
                 <div class="lg:flex-grow md:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-left">
                     <div className="container">
-                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">Biography</h1>
+                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">About me</h1>
                         <p class="mb-8 leading-relaxed">{INFO.homepage.description}</p>
-                        <div className="row">
+                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">My Skill level</h1>
+                       <Progress />
+
+                       {/* <div className="row">
                             <div className="col-sm">
                                 <ul style={{ listStyleType: 'disc' }}>
                                     <li className='mb-4'><span style={{ fontWeight: 'bold' }}>Name:</span> {INFO.main.name}</li>
@@ -109,7 +113,8 @@ const Biography = () => {
                                 </ul>
 
                             </div>
-                        </div>
+                        </div> */}
+
                     </div>
 
                 </div>

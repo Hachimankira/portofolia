@@ -1,6 +1,6 @@
 import React from 'react'
 import WebIcon from '@mui/icons-material/Web';
-import INFO from "../data/user";
+import INFO from "./user";
 import { Button, Card, CardActions, CardContent, Grid, Typography } from '@mui/material';
 
 const WhatIDo = (props) => {
