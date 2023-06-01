@@ -78,7 +78,7 @@ const Homepage = () => {
 
 						<Biography />
 
-						<WhatIDo />
+						<WhatIDo info={INFO.whatIDo}/>
 
 						<div className="homepage-projects">
 						<h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900"> My Projects</h1>

@@ -40,14 +40,17 @@ const INFO = {
 
 	whatIDo: [
 		{
+			id: 1,
 			icon: <WebIcon sx={{ fontSize: 80 }} />,
-			title: "Web Applications"
+			title: "Web Applications",
 		},
 		{
+			id: 2,
 			icon: <AppShortcut sx={{ fontSize: 80 }} />,
 			title: "Mobile Application"
 		},
 		{
+			id: 3,
 			icon: <ArtTrack sx={{ fontSize: 80 }} />,
 			title: "Graphics Design"
 		}
